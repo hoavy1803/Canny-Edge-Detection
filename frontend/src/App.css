@@ -1,0 +1,140 @@
+.interface {
+  width: 100%;
+  height: 100vh;
+}
+
+/* .interface, td {
+  border: 1px solid black;
+} */
+
+#menu-banner {
+  width: 20%;
+  height: 100%;
+  background-attachment: fixed;
+  background: linear-gradient(to right,rgb(135, 183, 242), rgb(78, 115, 202));
+  /* background-color: rgb(135, 183, 242); */
+  position: fixed;  
+}
+
+#main {
+  width: 79.5%;
+}
+
+.banner {
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(to right,rgb(54, 95, 191),rgb(3, 1, 45));
+  height: 100px;
+  justify-items: center;
+  color: white;
+  font-size: larger;
+  background-attachment: fixed;
+}
+
+.input {
+  width: 40px;
+}
+
+.options {
+  /* width: 800px; */
+  border: 1px solid rgb(156, 136, 136);
+  border-radius: 6px;
+  margin-top: 30px;
+  vertical-align: 30px;
+  background-color: rgb(205, 210, 219);
+  
+}
+
+.option-name {
+  width: 80%;
+}
+
+.option-item {
+  /* margin-left: 3%; */
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 650px;
+}
+
+.image-container { 
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  text-align: center;
+  overflow: hidden; /* Ẩn phần ảnh vượt quá khung */
+}
+
+img {
+  margin: auto;
+  object-fit: contain;
+  /* max-width: 500px; */
+  /* min-width: 300px; */
+}
+
+.choosefile {
+  margin-top: 10px;
+}
+
+.custom-button {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px 5px;
+  text-align: left;
+  background-color: rgb(252, 247, 240);
+  width: fit-content;
+  border: 1px solid gray;
+  margin-top: 30px;
+}
+
+.custom-button:hover {
+  background-color: rgb(255, 222, 191);
+}
+
+
+table {
+  align-items: right;
+  width: 80%; 
+  table-layout: fixed;
+}
+
+td {
+  width: 50%;
+}
+
+th {
+  height: 80px;
+  align-items: center;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  align-items: right;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#contact {
+  position: fixed;
+  margin-top: 250px;
+  color: #ffffff;
+}
+
